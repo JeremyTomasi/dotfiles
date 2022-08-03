@@ -51,6 +51,16 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 require('nvim-lsp-installer').setup()
 
+nvim_lsp.html.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+nvim_lsp.cssls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
   filetypes = {"javascript","javascriptreact","typescript", "typescriptreact"}
@@ -66,10 +76,7 @@ nvim_lsp.clangd.setup {
   capabilities = capabilities
 }
 
-nvim_lsp.cssls.setup {
-  on_attach = on_attach,
-  capabilities = capabilities
-}
+
 
 -- icon
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
