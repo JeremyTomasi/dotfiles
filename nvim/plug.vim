@@ -16,5 +16,9 @@ call plug#begin()
     Plug 'kyazdani42/nvim-web-devicons'
 
     Plug 'nvim-lualine/lualine.nvim'
+
+    Plug 'kristijanhusak/defx-git'
+    Plug 'kristijanhusak/defx-icons'
+    Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
   endif
 call plug#end()
