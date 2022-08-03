@@ -32,5 +32,7 @@ call plug#begin()
     Plug 'norcalli/nvim-colorizer.lua'
 
     Plug 'windwp/nvim-ts-autotag'
+
+    Plug 'akinsho/toggleterm.nvim'
   endif
 call plug#end()
