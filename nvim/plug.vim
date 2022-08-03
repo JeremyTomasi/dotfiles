@@ -3,5 +3,6 @@ call plug#begin()
 
   if has('nvim')
     Plug 'neovim/nvim-lspconfig'
+    Plug 'williamboman/nvim-lsp-installer'
   endif
 call plug#end()
