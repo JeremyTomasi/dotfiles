@@ -43,6 +43,12 @@ local on_attach = function(client,bufnr)
   }
 end
 
+local capabilities = require('cmp_nvim_lsp').update_capabilities(
+  vim.lsp.protocol.make_client_capabilities()
+)
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+
 require('nvim-lsp-installer').setup()
 
 nvim_lsp.tsserver.setup {
@@ -56,6 +62,11 @@ nvim_lsp.pyright.setup {
 }
 
 nvim_lsp.clangd.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
+}
+
+nvim_lsp.cssls.setup {
   on_attach = on_attach,
   capabilities = capabilities
 }
