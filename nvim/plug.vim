@@ -30,5 +30,7 @@ call plug#begin()
     Plug 'onsails/lspkind-nvim'
 
     Plug 'norcalli/nvim-colorizer.lua'
+
+    Plug 'windwp/nvim-ts-autotag'
   endif
 call plug#end()
