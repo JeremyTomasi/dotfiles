@@ -28,5 +28,7 @@ call plug#begin()
     Plug 'L3MON4D3/LuaSnip'
     Plug 'saadparwaiz1/cmp_luasnip'
     Plug 'onsails/lspkind-nvim'
+
+    Plug 'norcalli/nvim-colorizer.lua'
   endif
 call plug#end()
