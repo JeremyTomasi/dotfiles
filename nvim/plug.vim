@@ -14,5 +14,7 @@ call plug#begin()
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'kyazdani42/nvim-web-devicons'
+
+    Plug 'nvim-lualine/lualine.nvim'
   endif
 call plug#end()
