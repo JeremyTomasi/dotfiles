@@ -1,0 +1,8 @@
+exa
+ffmpeg
+fish
+git
+gnupg
+neofetch
+neovim
+tmux

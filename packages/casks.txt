@@ -1,0 +1,11 @@
+discord
+figma
+firefox
+font-caskaydia-cove-nerd-font
+iterm2
+libreoffice
+notion
+qbittorrent
+raycast
+spotify
+vlc
