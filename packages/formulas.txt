@@ -3,6 +3,7 @@ ffmpeg
 fish
 git
 gnupg
+htop
 neofetch
 neovim
 tmux
