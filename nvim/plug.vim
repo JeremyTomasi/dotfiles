@@ -6,5 +6,8 @@ call plug#begin()
     Plug 'williamboman/nvim-lsp-installer'
 
     Plug 'kkharji/lspsaga.nvim'
+
+    Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+    Plug 'windwp/nvim-autopairs'
   endif
 call plug#end()
