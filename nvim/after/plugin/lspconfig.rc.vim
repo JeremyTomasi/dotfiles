@@ -47,7 +47,12 @@ require('nvim-lsp-installer').setup()
 
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
-  filetypes = {"typescript", "typescriptreact"}
+  filetypes = {"javascript","javascriptreact","typescript", "typescriptreact"}
+}
+
+nvim_lsp.pyright.setup {
+  on_attach = on_attach,
+  capabilities = capabilities
 }
 
 -- icon
